@@ -2,7 +2,16 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-var timeBlock = ['#hour-09, #hour-10, #hour-11, #hour-12, #hour-13, #hour-14, #hour-15, #hour-16, #hour-17'
+var timeBlock = [
+  $('#hour-09'),
+  $('#hour-10'),
+  $('#hour-11'),
+  $('#hour-12'),
+  $('#hour-13'),
+  $('#hour-14'),
+  $('#hour-15'),
+  $('#hour-16'),
+  $('#hour-17'),
 ];
 
 $(function () {
@@ -73,17 +82,25 @@ $(function () {
   
   function storeEvent () {
     var savedEvents = JSON.parse(localStorage.getItem('savedText'));
-    
-    if (savedEvents !== null) {
-      for (i = 0; i < 9; i++) {
-        var textInput = scheduleContainer.children().eq().children().value();
-        
-        textInput.text(savedEvents[i]);
-      }
-    } else {
+  
+    if (savedEvents === null) {
+      savedEvents = []
       console.log('No events saved.');
     }
-  }
+      savedEvents.push("localstorage events")
+      console.log(savedEvents)
+      localStorage.setItem("savedText", JSON.stringify(savedEvents))
+    }
+
+      // for (i = 0; i < 9; i++) {
+      //   var textInput = scheduleContainer.children().eq().children().value();
+        
+        // textInput.text(savedEvents[i]);
+    //   }
+    // } else {
+
+    // }
+
   storeEvent();
   
   // TODO: Add code to display the current date in the header of the page.
