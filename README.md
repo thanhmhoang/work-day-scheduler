@@ -17,8 +17,8 @@ To use this work day scheduler/planner, please click on this link, https://thanh
 
 ## Credits
 
-Henry Weigand - UW Bootcamp TA
-Eli Wood - UW Bootcamp TA
+Henry Weigand - UW Bootcamp TA,
+Eli Wood - UW Bootcamp TA,
 Thien Nguyen - Former UW Bootcamp student
 
 ## License
