@@ -10,7 +10,9 @@ N/A
 ## Usage
 
 To use this work day scheduler/planner, please click on this link, https://thanhmhoang.github.io/work-day-scheduler/. When users reach the webpage, they can use the daily planner to create a schedule. When the scheduler is opened, the current day is displayed at the top of the calendar. When the user scrolls down, there will be time blocks for standard business hours, each time block is color coded to indicate where it is in the past, present, or future. Gray is for past events, red is for the present, and green is for future events. When the user clicks on a specific time block they can input an event and click the save button for that specific time block that is to the right of the time block. The event input will be save in local storage and once the page is refresh, the saved event will still persist there.
-<img width="1512" alt="Screenshot 2023-03-24 at 8 24 10 PM" src="https://user-images.githubusercontent.com/127359348/230551476-678da165-9ba3-4ea5-80ff-4610aa490a68.png">
+
+<img width="" alt="[Screenshot 2023-04-06 at 11 05 50 PM" src="https://user-images.githubusercontent.com/127359348/230551715-a7b7e940-55cb-4186-a912-6a8b43844d46.png">
+
 
 
 ## Credits
