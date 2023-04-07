@@ -19,7 +19,7 @@ To use this work day scheduler/planner, please click on this link, https://thanh
 
 Henry Weigand - UW Bootcamp TA,
 Eli Wood - UW Bootcamp TA,
-Thien Nguyen - Former UW Bootcamp student
+Navpreet Ahuja - Central Tutor FSF Tutor
 
 ## License
 
